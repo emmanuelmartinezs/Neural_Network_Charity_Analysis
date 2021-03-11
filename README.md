@@ -1,9 +1,23 @@
 # Neural Network Charity Analysis
 
 ## Overview of Project
-Since your work with Jennifer on the SellBy project was so successful, you’ve been tasked with another, larger project: analyzing Amazon reviews written by members of the paid Amazon Vine program. The Amazon Vine program is a service that allows manufacturers and publishers to receive reviews for their products. Companies like SellBy pay a small fee to Amazon and provide products to Amazon Vine members, who are then required to publish a review.
+Bek’s come a long way since her first day at that boot camp five years ago—and since earlier this week, when she started learning about neural networks! Now, she is finally ready to put her skills to work to help the foundation predict where to make investments.
 
-In this project, you’ll have access to approximately 50 datasets. Each one contains reviews of a specific product, from clothing apparel to wireless products. You’ll need to pick one of these datasets and use PySpark to perform the ETL process to extract the dataset, transform the data, connect to an AWS RDS instance, and load the transformed data into pgAdmin. Next, you’ll use PySpark, Pandas, or SQL to determine if there is any bias toward favorable reviews from Vine members in your dataset. Then, you’ll write a summary of the analysis for Jennifer to submit to the SellBy stakeholders.
+With your knowledge of machine learning and neural networks, you’ll use the features in the provided dataset to help Beks create a binary classifier that is capable of predicting whether applicants will be successful if funded by Alphabet Soup.
+
+From Alphabet Soup’s business team, Beks received a CSV containing more than 34,000 organizations that have received funding from Alphabet Soup over the years. Within this dataset are a number of columns that capture metadata about each organization, such as the following:
+
+*. **EIN** and **NAME**—Identification columns
+*. **APPLICATION_TYPE**—Alphabet Soup application type
+*. **AFFILIATION**—Affiliated sector of industry
+*. **CLASSIFICATION**—Government organization classification
+*. **USE_CASE**—Use case for funding
+*. **ORGANIZATION**—Organization type
+*. **STATUS**—Active status
+*. **INCOME**_AMT—Income classification
+*. **SPECIAL**_CONSIDERATIONS—Special consideration for application
+*. **ASK_AMT**—Funding amount requested
+*. **IS_SUCCESSFUL**—Was the money used effectively
 
 ## Deliverables:
 This new assignment consists of two technical analysis deliverables and a written report.
