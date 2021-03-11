@@ -31,7 +31,7 @@ This new assignment consists of two technical analysis deliverables and a writte
 4. ***Deliverable 4:*** A Written Report on the Analysis [README.md](https://github.com/emmanuelmartinezs/Neural_Network_Charity_Analysis)
 
 
-## Deliverables:
+## Resources:
 This new assignment consists of three technical analysis deliverables and a proposal for further statistical study. You’ll submit the following:
 
 * Data Source: `charity_data.csv`, `AlphabetSoupCharity.h5` and `AlphabetSoupCharity_Optimzation.h5` 
@@ -39,7 +39,7 @@ This new assignment consists of three technical analysis deliverables and a prop
 * Software: `Python 3.9`, `Visual Studio Code 1.50.0`, `Anaconda 4.8.5`, `Jupyter Notebook 6.1.4` and `Pandas`
 
 
-## Resources and Before Start Notes:
+## Before Start:
 
 ### Cloud Storage with S3 on AWS
 #### Database Versus Data Storage
