@@ -198,66 +198,50 @@ You will earn a perfect score for Deliverable 1 by completing all requirements b
 
 ## DELIVERABLE RESULTS:
 
-**Helpful Reviews (All) with 5 Star:**  
-For all reviews and "helpful" reviews, **around half of the ratings are 5 Star**, which indicates that the Vine programs tend to give 5 Stars over any other rating.
-![d1](https://github.com/emmanuelmartinezs/Amazon_Vine_Analysis/blob/main/Resources/Images/r5.png)
+#### Data Preprocessing
+What variable(s) are considered the target(s) for this model? For this model, the target is held in the IS_SUCCESSFUL field.
 
-**Percentage of Vine Reviews are 5-star:**  
-For all the Vine Reviews, we found almost the same, a little more lower ratings than 5 Star.
-![d1](https://github.com/emmanuelmartinezs/Amazon_Vine_Analysis/blob/main/Resources/Images/r6.png)  
+##### What variable(s) are considered to be the features for this model?
+
+* ORGANIZATION
+* STATUS
+* INCOME_AMT
+* SPECIAL_CONSIDERATIONS
+* ASK_AMT
+* APPLICATION_TYPE
+* AFFILIATION
+* CLASSIFICATION
+* USE_CASE
+
+##### What variable(s) are neither targets nor features, and should be removed from the input data?
+
+* NAME
+* EIN
+
+##### Compiling, Training, and Evaluating the Model
+
+**Model Configuration:**
+
+* hidden_nodes_layer2 = 30
+* number_input_features = 43
+* hidden_nodes_layer1 = 80
 
 
-**Percentage of Non-Vine Reviews are 5-star:** 
-In General, the non-Vine reviews is higher of 5 Stars on non-Vine reviews than 5 Star Vine.  
-![d1](https://github.com/emmanuelmartinezs/Amazon_Vine_Analysis/blob/main/Resources/Images/r7.png)
+##### Were you able to achieve the target model performance?. No; this model only acheived 63.8% accuracy
 
-**Vine Review vs. Non-Vine Review**:   
-For the entire Furniture product review file, the majority has a small Amazon Vine review:   
-![d1](https://github.com/emmanuelmartinezs/Amazon_Vine_Analysis/blob/main/Resources/Images/r1.png)
+##### What steps did you take to try and increase model performance? Several attempts to incraese the accuracy of the model were taken, including:
 
-Now, applying the same analysis over smaller dataset, with "helpful" reviews, we faound an average percentage from the Vine program:  
-![d1](https://github.com/emmanuelmartinezs/Amazon_Vine_Analysis/blob/main/Resources/Images/r2.png)
+* Increasing the number of hidden nodes in layer 1 (3 X number of input features)
+* Increasing the number of hidden layers to include a 3rd
+* Changing the activation functions: tried linear, tanh, sigmoid for a combination of hidden layers and output layer
 
-**5 Star Reviews Vine vs Non-Vine:** 
-For the entire review dataset, we found a small 5 Star reviews from Vine reviews, **around 0.3%**  
-![d1](https://github.com/emmanuelmartinezs/Amazon_Vine_Analysis/blob/main/Resources/Images/r3.png)
 
-By Filtering the "helpful" reviews only, we saw and found a light difference; **a lower 1%** of the 5 Star review from Vine.  
-![d1](https://github.com/emmanuelmartinezs/Amazon_Vine_Analysis/blob/main/Resources/Images/r4.png)
+None of these attempts yielded a better accuracy score.
 
 
 ### SUMMARY
 
-
-1. The majority of reviews for Furniture product are almost nothing or lower results from Vine participants: **99.6% are Non-Vine**.  
-2. And overall of all 5 Star reviews are also the same as the Furniture, all are from Vine participants: **99.7% of all 5-star reviews are non-Vine**.
-3. But we need to highlight that not all of the 5 Star reviews are coming from Vine participants.
-
-
-### RECOMMENDATIONS:
-Below some recommendations to follow:
-
-1. The Amazon Vine Analysis provide a favorable dataset on the 5-star rating.
-
-2. In addition, we found that much data isn't Vine reviews over specific products, that we could minimize the resluts and create a different dataset on just Vine products.
-
-> In addition, 
-
-The analysis gave us that **1/4 are Vine Reviews**
-  
-![d1](https://github.com/emmanuelmartinezs/Amazon_Vine_Analysis/blob/main/Resources/Images/r8.png)  
-
-Specific Product provide an average of **57% 5 Star reviews**  
-
-![d1](https://github.com/emmanuelmartinezs/Amazon_Vine_Analysis/blob/main/Resources/Images/r9.png)  
-
-For the majority of Vine Reviews, the analysis provide a **49% of 5 Star reviews**   
-
-![d1](https://github.com/emmanuelmartinezs/Amazon_Vine_Analysis/blob/main/Resources/Images/r10.png)   
-
-And for the majority of the non-Vine Reviews, the analysis provide a **60% of 5 Star reviews**
-
-![d1](https://github.com/emmanuelmartinezs/Amazon_Vine_Analysis/blob/main/Resources/Images/r11.png) 
+Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation. 
 
 
 
