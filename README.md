@@ -7,6 +7,9 @@ With your knowledge of machine learning and neural networks, you’ll use the fe
 
 From Alphabet Soup’s business team, Beks received a CSV containing more than 34,000 organizations that have received funding from Alphabet Soup over the years. Within this dataset are a number of columns that capture metadata about each organization, such as the following:
 
+![logo](https://github.com/emmanuelmartinezs/Neural_Network_Charity_Analysis/blob/main/Resources/Images/header.png?raw=true)
+
+
 * **EIN** and **NAME**—Identification columns
 * **APPLICATION_TYPE**—Alphabet Soup application type
 * **AFFILIATION**—Affiliated sector of industry
@@ -37,9 +40,6 @@ This new assignment consists of three technical analysis deliverables and a prop
 
 
 ## Resources and Before Start Notes:
-
-![logo](https://github.com/emmanuelmartinezs/Neural_Network_Charity_Analysis/blob/main/Resources/Images/header.png?raw=true)
-
 
 ### Cloud Storage with S3 on AWS
 #### Database Versus Data Storage
