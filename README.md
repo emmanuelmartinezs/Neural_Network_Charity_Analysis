@@ -188,9 +188,9 @@ You will earn a perfect score for Deliverable 1 by completing all requirements b
 ## DELIVERABLE RESULTS:
 
 #### Data Preprocessing
-What variable(s) are considered the target(s) for this model? For this model, the target is held in the IS_SUCCESSFUL field.
+For this analysis and model, the target is held in IS_SUCCESSFUL field.
 
-##### What variable(s) are considered to be the features for this model?
+##### The following variable(s) should be considered on features model
 
 * ORGANIZATION
 * STATUS
@@ -202,7 +202,7 @@ What variable(s) are considered the target(s) for this model? For this model, th
 * CLASSIFICATION
 * USE_CASE
 
-##### What variable(s) are neither targets nor features, and should be removed from the input data?
+##### The following variable(s) should be removed from input and data.
 
 * NAME
 * EIN
@@ -211,26 +211,21 @@ What variable(s) are considered the target(s) for this model? For this model, th
 
 **Model Configuration:**
 
+* hidden_nodes_layer1 = 80
 * hidden_nodes_layer2 = 30
 * number_input_features = 43
-* hidden_nodes_layer1 = 80
 
 
-##### Were you able to achieve the target model performance?. No; this model only acheived 63.8% accuracy
-
-##### What steps did you take to try and increase model performance? Several attempts to incraese the accuracy of the model were taken, including:
+##### This model acheived 63.8% accuracy with several attempts to incraese the accuracy including:
 
 * Increasing the number of hidden nodes in layer 1 (3 X number of input features)
 * Increasing the number of hidden layers to include a 3rd
 * Changing the activation functions: tried linear, tanh, sigmoid for a combination of hidden layers and output layer
 
 
-None of these attempts yielded a better accuracy score.
-
-
 ### SUMMARY
 
-Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation. 
+Our Analysis and Deep Learning Model Results include a recommendation for how a different model could solve this classification and results.
 
 
 
