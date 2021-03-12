@@ -41,17 +41,6 @@ This new assignment consists of three technical analysis deliverables and a prop
 
 ## Before Start:
 
-### Cloud Storage with S3 on AWS
-#### Database Versus Data Storage
-
-Data storage holds raw data such as CSVs, Excel files, and JavaScript Object Notation (JSON) files. Think of your own computer file system where you keep a ton of files as data storage. This data doesn't need to be queried and analyzed for business decisions. The files still have structure and can be reviewed, but not nearly as efficiently as a database.
-
-A database contains cleaned, related information in tabular form. This database has been carefully planned and structured so that data can be analyzed efficiently through queries. Doing so comes at a cost of processing data to fit all the rules and structures.
-
-Data storage is a place where large amounts of raw data can be kept without any munging or curating. Data storage allows us to keep data of different types or data we might want to parse in the future.
-
-The benefit of having dedicated data storage is that nothing limits the intake of data. Data can flow in constantly and be saved without having to worry if it fits the criteria of the database. We have seen this with our extract, transform, and load (ETL) process—the data storage can hold raw files, such as CSV or JSON, for different needs.
-
 **Extra Note**
 > Basically, there are 3 important layers which are the input layer, hidden layer, and output layer. In each layer, there are neurons that are added with weight to produce the outputs through the activation functions (i.e: Sigmoid, ReLU, softmax) which define the output. The neural networks are further divided into shallow and deep neural networks as shown above. Depend on the dataset you are dueling with, you could add many hidden layers to generate a better result.
 
